@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Brain</title>
+  <meta name="description" content="Second Brain is a private, personal knowledge tool used only by its owner.">
+  <style>
+    :root { --bg: #fbfaf7; --fg: #1d1d1f; --muted: #5f6368; --accent: #2457c5; --line: #e4e1da; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #141518; --fg: #ececec; --muted: #a0a4ab; --accent: #8ab4f8; --line: #2c2e33; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 56px 20px 72px; }
+    h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+    .tag { color: var(--muted); margin: 0 0 32px; }
+    h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+    ul { padding-left: 1.2em; }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Second Brain</h1>
+    <p class="tag">A private, personal knowledge tool.</p>
+
+    <p>Second Brain runs on its owner's own computer. It keeps the owner's notes about people, projects and plans in order, writes a short daily briefing, and does this with the help of an AI assistant (Claude, made by Anthropic).</p>
+    <p>It is used only by its owner. It isn't offered to anyone else, and there is nothing to sign up for.</p>
+
+    <h2>What it does with Google</h2>
+    <ul>
+      <li>Reads the owner's Gmail, Google Calendar and Google Drive, to keep the owner's notes current.</li>
+      <li>Sends an email only when the owner has approved that specific email.</li>
+      <li>Keeps backups of the owner's notes in the owner's own Google Drive.</li>
+    </ul>
+
+    <p>Read the <a href="privacy.html">privacy policy</a>.</p>
+
+    <footer>Maintained by <a href="https://github.com/roguenealer">roguenealer</a> on GitHub.</footer>
+  </main>
+</body>
+</html>
